@@ -157,10 +157,10 @@ const Sidebar = ({
                     <Button
                       activeclassname={classes.active}
                       className={classes.button}
-                      onClick={() => onClickDashboard("media")}
+                      onClick={() => onClickDashboard("Education")}
                     >
                       <TheatersOutlinedIcon className={classes.icon} size="20" />
-                      <span className={classes.title}>Media</span>
+                      <span className={classes.title}>Education</span>
                     </Button>
                   </ListItem>
                   <ListItem
@@ -170,13 +170,13 @@ const Sidebar = ({
                     <Button
                       activeclassname={classes.active}
                       className={classes.button}
-                      onClick={() => onClickDashboard("products")}
+                      onClick={() => onClickDashboard("WorkExperience")}
                     >
                       <LocalGroceryStoreOutlinedIcon
                         className={classes.icon}
                         size="20"
                       />
-                      <span className={classes.title}>Ecommerce Products</span>
+                      <span className={classes.title}>Work Experience</span>
                     </Button>
                   </ListItem>
                     <ListItem
@@ -186,13 +186,13 @@ const Sidebar = ({
                       <Button
                         activeclassname={classes.active}
                         className={classes.button}
-                        onClick={() => onClickDashboard("Enquiry")}
+                        onClick={() => onClickDashboard("Projects")}
                       >
                         <RecentActorsOutlinedIcon
                           className={classes.icon}
                           size="20"
                         />
-                        <span className={classes.title}>Enquiry Details</span>
+                        <span className={classes.title}>Projects</span>
                       </Button>
                     </ListItem>
               </Typography>
